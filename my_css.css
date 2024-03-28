@@ -1,0 +1,151 @@
+/* CSS cho header */
+#header {
+    width: 80%; /* Giảm chiều rộng của header */
+    margin: 0 auto; /* Để căn giữa header */
+    background-color: #f0f0f0; /* Màu nền header */
+    padding: 5px; /* Khoảng cách lề bên trong */
+}
+
+.tren-header {
+    display: flex; /* Hiển thị các phần tử theo chiều ngang */
+    justify-content: space-between; /* Canh chỉnh các phần tử ở hai đầu */
+}
+
+.lienhe {
+    background-color: #ff9999; /* Màu nền cho phần liên hệ */
+    width: 80%; /* Độ rộng */
+    height: 20px; /* Độ cao */
+}
+
+.login {
+    background-color: #99ccff; /* Màu nền cho phần đăng nhập */
+    width: 20%; /* Độ rộng */
+    height: 20px; /* Độ cao */
+}
+
+.giua-header {
+    display: flex; /* Hiển thị các phần tử theo chiều ngang */
+    justify-content: space-between; /* Canh chỉnh các phần tử ở hai đầu */
+    margin-top: 5px; /* Khoảng cách từ phần trên */
+}
+
+.phai {
+    position: relative;
+    background-color: #ffa299; /* Màu nền cho các phần tử trái, giữa, phải */
+    width: 30%; /* Độ rộng */
+    height: 130px; /* Độ cao */
+}
+.giua {
+    position: relative;
+    background-color: #ffe299; /* Màu nền cho các phần tử trái, giữa, phải */
+    width: 39%; /* Độ rộng */
+    height: 130px; /* Độ cao */
+}
+.trai {
+    position: relative;
+    background-color: #9b99ff; /* Màu nền cho các phần tử trái, giữa, phải */
+    width: 30%; /* Độ rộng */
+    height: 130px; /* Độ cao */
+}
+.logo {
+    width: 100%; /* Chiều rộng là 100% của phần tử cha (.trai) */
+    height: 100%; /* Chiều cao là 100% của phần tử cha (.trai) */
+    overflow: hidden; /* Ẩn nội dung bị tràn ra ngoài khung */
+}
+
+.logo img {
+    width: 100%; /* Chiều rộng là 100% của phần tử cha (.logo) */
+    height: 100%; /* Chiều cao là 100% của phần tử cha (.logo) */
+}
+
+.banner {
+    width: 100%; /* Chiều rộng là 100% của phần tử cha (.trai) */
+    height: 100%; /* Chiều cao là 100% của phần tử cha (.trai) */
+    overflow: hidden; /* Ẩn nội dung bị tràn ra ngoài khung */
+}
+
+.banner img {
+    width: 100%; /* Chiều rộng là 100% của phần tử cha (.logo) */
+    height: 100%; /* Chiều cao là 100% của phần tử cha (.logo) */
+}
+/* CSS cho nav */
+.duoi-header {
+    width: 80%; /* Giảm chiều rộng của nav */
+    margin: 0 auto; /* Để căn giữa nav */
+    background-color: #cccccc; /* Màu nền cho nav */
+    padding: 2px; /* Khoảng cách lề bên trong */
+}
+
+.menu {
+    background-color: #ffff99; /* Màu nền cho menu */
+    width: 100%; /* Độ rộng */
+    height: 20px; /* Độ cao */
+}
+
+/* CSS cho main */
+.main-container {
+    width: 80%; /* Giảm chiều rộng của main-container */
+    margin: 0 auto; /* Để căn giữa main-container */
+    display: flex; /* Hiển thị các phần tử theo chiều ngang */
+    justify-content: space-between; /* Canh chỉnh các phần tử ở hai đầu */
+    margin-top: 2px; /* Khoảng cách từ phần trên */
+}
+
+.main_trai {
+    background-color: #ffcc99; /* Màu nền cho phần trái */
+    width: 50%; /* Độ rộng */
+    height: 640px; /* Độ cao */
+}
+.main_trai img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của phần tử cha */
+    max-height: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của phần tử cha */
+}
+.main-giua {
+    background-color: #dc7a18; /* Màu nền cho phần trái */
+    width: 20%; /* Độ rộng */
+    height: 640px; /* Độ cao */
+}
+
+.main-giua-1 {
+    background-color: #b41e26; /* Màu nền cho các phần giữa */
+    width: 100%; /* Độ rộng */
+    height: 400px; /* Độ cao */
+    margin-bottom: 10px; /* Khoảng cách từ phần dưới */
+    word-wrap: break-word; /* Chia từ khi nội dung vượt quá kích thước */
+}
+.main-giua-2 {
+    background-color: #b41e26; /* Màu nền cho các phần giữa */
+    width: 100%; /* Độ rộng */
+    height: 200px; /* Độ cao */
+    margin-bottom: 10px; /* Khoảng cách từ phần dưới */
+}
+
+.main-phai {
+    background-color: #ac99ff; /* Màu nền cho phần trái */
+    width: 30%; /* Độ rộng */
+    height: 640px; /* Độ cao */
+    .main_phai_2 img,
+    .main_phai_3 img,
+    .main_phai_4 img {
+    width: 100%; /* Chiều rộng là 100% */
+    height: auto; /* Chiều cao tự điều chỉnh theo tỷ lệ */
+    display: block; /* Đảm bảo hình ảnh không bị tràn ra ngoài khung */
+    margin-bottom: 5px; /* Khoảng cách giữa các hình ảnh */
+}
+}
+
+.main_phai_1, .main_phai_2, .main_phai_3, .main_phai_4 {
+    background-color: #99ffff; /* Màu nền cho các phần của phần phải */
+    width: 100%; /* Độ rộng */
+    height: 160px; /* Độ cao */
+    
+}
+/* CSS cho footer */
+#footer {
+    width: 77%; /* Giảm chiều rộng của footer */
+    margin: 0 auto; /* Để căn giữa footer */
+    background-color: #333; /* Màu nền footer */
+    color: #fff; /* Màu chữ */
+    padding: 20px; /* Khoảng cách lề bên trong */
+    text-align: center; /* Că/* Căn giữa nội dung */
+}
